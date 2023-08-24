@@ -12,8 +12,6 @@ page 50100 TelevisionShowCard
         {
             group(General)
             {
-
-
                 field(CodeContent; Rec.CodeContent)
                 {
                     ToolTip = 'Code of content', Comment = 'PTB= Código do conteúdo';
@@ -21,11 +19,16 @@ page 50100 TelevisionShowCard
                 field(FirstAired; Rec.FirstAired)
                 {
                     ToolTip = 'First Aired date', Comment = 'PTB= Data da Estréia';
+                    ApplicationArea = All;  
                 }
+                field(LastAired; Rec.LastAired)
+                {
+                    ToolTip = 'Last Aired date.', Comment = 'PTB= Data da última exibição';
+                    ApplicationArea = All; 
+                }                                
                 field(Name; Rec.Name)
                 {
-                    Caption = 'Name Content', Comment = 'PTB= Nome do Conteúdo';
-                    ;
+                    Caption = 'Name Content', Comment = 'PTB= Nome do Conteúdo';                    
                 }
                 field(Status; Rec.Status)
                 {
@@ -39,13 +42,12 @@ page 50100 TelevisionShowCard
             }
             group(MetaData)
             {
-
                 field(SystemCreatedAt; Rec.SystemCreatedAt)
                 {
                     Editable = false;
                     Caption = 'Created at', Comment = 'PTB= Criado em';
                 }
-                field(SystemCreatedBy; Rec.SystemCreatedBy)
+                field(CreatedBy; Rec.CreatedBy)
                 {
                     Editable = false;
                     Caption = 'Created by', Comment = 'PTB= Criado por';
@@ -56,8 +58,10 @@ page 50100 TelevisionShowCard
                     Caption = 'Modified at', Comment = 'PTB= Modificado em';
                 }
             }
+            
         }
-    }
 
+        
+    }
 
 }

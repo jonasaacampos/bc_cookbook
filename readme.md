@@ -14,3 +14,5 @@
 
 - [Tables](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-tables-overview)
 - [Pages](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-pages-overview)
+- [Label Data Type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/label/label-data-type)
+- []

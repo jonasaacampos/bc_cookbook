@@ -27,29 +27,17 @@ page 50101 TelevisionShowList
                 {
                     ToolTip = 'Status of publication', Comment = 'PTB=Status do conteúdo publicado';
                 }
-
+                field(CreatedBy; Rec.CreatedBy)
+                {
+                    Caption = 'Created By', Comment = 'PTB=Criado por';
+                    ToolTip = 'User of insert this content', Comment = 'PTB= Usuário que inseriu o conteúdo';
+                    ApplicationArea = All;
+                }
 
             }
         }
-        area(Factboxes)
-        {
 
-        }
     }
 
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                ApplicationArea = All;
 
-                trigger OnAction();
-                begin
-
-                end;
-            }
-        }
-    }
 }
