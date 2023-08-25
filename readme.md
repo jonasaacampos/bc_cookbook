@@ -9,7 +9,9 @@
 4.  Gerado arquivo de permissions (`Ctrl + Shift + P > AL: Generate permission set containing current extension objects.`)
     1.  Após criar, e editar o nome e atributos da permissão gerada, pulicar o projeto
     2.  No *tell me* pesquisar por **permissions set**. O administrador porderá liberar ou restringir o acesso aos módulos.
-5.  
+5.  Criado arquivo de relatório (**Report, Report Layout**).
+    1.  Criado dois layouts no mesmo arquivo de relatório. Um geral e outro detalhado.
+6.  Adicionado Link de ajuda (**Help Link**) na **Page List** de programas da emissora.
 
 
 ## Referências
@@ -21,3 +23,5 @@
 - [Pages](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-pages-overview)
 - [Label Data Type](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/label/label-data-type)
 - [Triggers](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers)
+- [Report Layouts](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts)
+- [Help Link](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports)

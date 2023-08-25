@@ -5,7 +5,7 @@ page 50101 TelevisionShowList
     UsageCategory = Lists;
     Editable = true;
     CardPageId = TelevisionShowCard;
-    SourceTable = TelevisionShowList;
+    SourceTable = TelevisionShow;
     Caption = 'Television Show List', Comment = 'PTB=Lista de programas de TV';
 
     layout

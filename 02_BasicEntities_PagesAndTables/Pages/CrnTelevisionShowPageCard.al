@@ -3,7 +3,7 @@ page 50100 TelevisionShowCard
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = TelevisionShowList;
+    SourceTable = TelevisionShow;
     Caption = 'Television Show Details', Comment = 'PTB=Detalhes dos programas de TV dop catálogo';
 
     layout
