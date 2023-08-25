@@ -1,5 +1,8 @@
 table 50100 TelevisionShowList
 {
+    Caption = 'Television Show Table', Comment = 'PTB=Tabela de programas da emissora';
+    DataClassification = CustomerContent;
+    
 
     fields
     {
