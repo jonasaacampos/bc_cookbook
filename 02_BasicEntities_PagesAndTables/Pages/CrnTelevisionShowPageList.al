@@ -7,6 +7,7 @@ page 50101 TelevisionShowList
     CardPageId = TelevisionShowCard;
     SourceTable = TelevisionShow;
     Caption = 'Television Show List', Comment = 'PTB=Lista de programas de TV';
+    HelpLink = 'https://www.linkedin.com/in/jonasaacampos';
 
     layout
     {
