@@ -62,7 +62,7 @@ table 50100 TelevisionShowList
 
     local procedure VerifyDates()
     var
-        AlertDateAiredErrorInsert: Label 'The date of aired (%1) cannot earlied to aired date(%2)', Comment = 'PTB= A data última exibição (%1) não pode ser anterior à data de estréia (%2).';
+        AlertDateAiredErrorInsert: Label 'The %1 cannot earlied to %2', Comment = 'PTB= A %1 não pode ser anterior à %2.';
     begin
         if LastAired = 0D then
             exit;

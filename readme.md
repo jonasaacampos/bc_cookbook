@@ -3,7 +3,9 @@
     1.  Campos de metadados não editáveis (system fields)
     2.  Campos obrigatórios, chave primária e clusterizada na tabela
     3.  Boas práticas de anotações no campo _Description_ e _Comments_ para tradução
-3.  d
+3.  Criadas Validações para a os campos de data de estréia
+    1.  A data de estréia deve ser sempre menor do que a data da última exibição. Caso isso não ocorra aparece uma mensagem de erro e não é permitido o registro
+    2.  Criado um log automático que registra o usuário respónsável por alterar o registro.
 
 
 
