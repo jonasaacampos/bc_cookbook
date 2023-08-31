@@ -12,6 +12,9 @@
 5.  Criado arquivo de relatório (**Report, Report Layout**).
     1.  Criado dois layouts no mesmo arquivo de relatório. Um geral e outro detalhado.
 6.  Adicionado Link de ajuda (**Help Link**) na **Page List** de programas da emissora.
+7.  Criada Extensão de Tabela. Se quisermos adicionar um campo à uma tabela existente, fazemos uma **Table Extension**
+
+
 
 
 ## Referências
@@ -25,3 +28,4 @@
 - [Triggers](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/triggers/devenv-triggers)
 - [Report Layouts](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts)
 - [Help Link](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports)
+- [Table Extension](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)
