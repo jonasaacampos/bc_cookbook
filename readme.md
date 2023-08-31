@@ -13,8 +13,9 @@
     1.  Criado dois layouts no mesmo arquivo de relatório. Um geral e outro detalhado.
 6.  Adicionado Link de ajuda (**Help Link**) na **Page List** de programas da emissora.
 7.  Criada Extensão de Tabela. Se quisermos adicionar um campo à uma tabela existente, fazemos uma **Table Extension**
+8.  Criada extensões da página de clientes (**Page Extensions**)
 
-
+parei pag 132
 
 
 ## Referências
@@ -29,3 +30,4 @@
 - [Report Layouts](https://learn.microsoft.com/en-us/dynamics365/business-central/ui-manage-report-layouts)
 - [Help Link](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-adding-help-links-from-pages-tables-xmlports)
 - [Table Extension](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)
+- [Page Extension](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)
