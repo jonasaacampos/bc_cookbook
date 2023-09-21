@@ -1,0 +1,20 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#141414",
+        "titleBar.activeBackground": "#141414",
+        "titleBar.activeForeground": "#ffffff",
+        "[Visual Studio Dark]": {"terminal.background": "#6200ff"}
+    },
+    // "al.enableCodeAnalysis": true,
+    // "al.codeAnalyzers": [
+    //     "${AppSourceCop}",
+    //     "${CodeCop}"
+    // ],
+    "al.showHomeAtStartup": "WhenUpdated",
+    //Configurações adiconais (Sacale-Up Lessons)
+    //"CRS.OnSaveAlFileAction": "Rename",
+    //"CRS.RemovePrefixFromFilename": true,
+   // "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    //"CRS.ObjectNamePrefix": "FHJ"
+    
+}
